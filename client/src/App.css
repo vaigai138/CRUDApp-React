@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    font-family: "Inter",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10px;
+    
+}
+
+h3{
+    margin: 20px 20px;
+    text-align: center;
+    
+}
+
+
+hr{
+    margin-bottom: 20px;
+    border: 0.2px solid rgb(192, 192, 192) ;
+
+}
+.btn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.green{
+    background-color: #00a000;
+}
+
+.red{
+    background-color: rgb(255, 47, 47);
+}
+
+.btn.green:hover{
+    background-color: rgb(0, 182, 0);
+    cursor: pointer;
+}
+
+.btn.red:hover{
+    background-color: rgb(204, 31, 0);
+    cursor:pointer;
+}
+
+.input-search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+.input-search input{
+    width: 300px;
+    border-radius: 3px;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 8px;
+   
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table  th,td{
+    border: 1px solid #ddd;
+    padding: 7px;
+}
+
+.table th{
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table tr:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.model{
+    display: block;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #3f3f3f65;
+    overflow: auto;
+}
+
+.model-content{
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 4px;
+}
+
+.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: black;
+}
+
+.model h2{
+font-weight: 500px;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
